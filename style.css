@@ -114,3 +114,8 @@ footer{text-align:center;padding:3rem 1rem;color:var(--muted);font-size:.9rem}
 @media (max-width:760px){.hero{min-height:0}.hero-art{margin:0 1.5rem 0 0}}
 
 .paper-links{display:flex;flex-wrap:wrap;gap:.75rem}
+
+/* book formats */
+.formats{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1.5rem 2rem;margin-top:1.5rem;max-width:34rem}
+.formats h3{font-style:italic;font-size:1.5rem;margin-bottom:.6rem}
+.formats .buy{margin-top:0;flex-direction:column;align-items:flex-start;gap:.6rem}
